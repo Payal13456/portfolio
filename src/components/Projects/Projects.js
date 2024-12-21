@@ -92,6 +92,44 @@ function Projects() {
             />
           </Col>
         </Row>
+
+        <h1 className="project-heading">
+          My Recent <strong className="purple">Ecommerce Projects </strong>
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={yogifi}
+              isBlog={false}
+              title="Adeshanusaar"
+              description="Adeshanusaar serves as an online platform where businesses and customers can engage in seamless buying and selling activities. "
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://adeshanusaar.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={PerfectChoice}
+              isBlog={false}
+              title="Adeshanusaar Dropshipping"
+              description="Adeshanusaar Dropshipping is an sonline platform that allows businesses to sell products to customers without holding inventory. Instead, the store forwards customer orders to a supplier or wholesaler, who ships the products directly to the customers. This business model minimizes overhead costs and simplifies logistics. "
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://dropshipping.adeshanusaar.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={Planiteach}
+              isBlog={false}
+              title="Laxmi Jewellers"
+              description="Sone se kam nahi, kho jaye to gum nahi”. Nahi ye koi shayari nahi hai, balki aaj mai aapko btaungi Kanpur ke ek aese jewellery brand ke baare me jo isi tagline ke sath logo ko sone jitni sundar jewellery, adhe se bhi kam daam me provide krta hai. Ye hai Laxmi Jewellers, Kanpur ka iklauta Online jewell"
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://laxmijewellerskanpur.com/"   
+            />
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
