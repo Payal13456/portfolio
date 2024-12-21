@@ -8,6 +8,12 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import rymindr from "../../Assets/Projects/rymindr.jpeg";
+import PerfectChoice from "../../Assets/Projects/perfect-choice.png";
+import Planiteach from "../../Assets/Projects/planiteach.gif";
+import yogifi from "../../Assets/Projects/cropped-Logo-yogifi.png";
+import Loadout from "../../Assets/Projects/loadout.jpeg";
+import Ozgigs from "../../Assets/Projects/ozgigs.svg";
 
 function Projects() {
   return (
@@ -20,74 +26,72 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={rymindr}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Rymindr"
+              description="Reminder app and web which can be used at business and education level. => Crafted a web application with a mobile app to use by educations and business and send rymindrs , bookings , messages from web to app."
+              // demoLink="https://app.rymindr.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Loadout}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Loadout"
+              description="Travelling management system. => We have used React.js and Firebase fire store as database and authentication. => Also we have used GCP Cloud function to manage stripe payment gateway as there were no backend technology we had used."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Ozgigs}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Ozgigs Marketplace"
+              description="Ozgig is the event vendor marketplace where they can list their videos and events. Also a user can be able to chat with vendor to plan for organizing an event."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={yogifi}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="YogiFi - Phase 1"
+              description="Yoga teacher attendance management. => Web application for the organization use to manage their yoga teachers schedule, availability and attendance. => Yoga teachers has ability to manage their schedule and students. "
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={PerfectChoice}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Perfect Choice Music"
+              description="Website built to get clients music albums published. => Client has his own albums and playlist to get published so this website is designed to upload all of the client albums for users to listen and share with clients. "
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Planiteach}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Planiteach"
+              description="LMS Platform built to manage school’s outcome, activity and activity lessons to be created and getting downloaded in doc format. => A user need to register and subscribe to the plans available. We have used stripe payment for subscription."
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
-        </Row> */}
+        </Row>
       </Container>
     </Container>
   );
