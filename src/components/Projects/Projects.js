@@ -129,6 +129,17 @@ function Projects() {
               demoLink="https://laxmijewellerskanpur.com/"   
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={Planiteach}
+              isBlog={false}
+              title="Oracle Marketplace"
+              description="Oracle is Australia's new favorite and trusted online marketplace! We aim to provide great products and brands you'll love from trusted sellers in Australia.What sets us apart is our commitment to customer's satisfaction and giving you a more enjoyable shopping experience."
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://oraclemarketplace.com"   
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
