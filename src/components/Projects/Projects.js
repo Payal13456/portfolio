@@ -63,7 +63,7 @@ function Projects() {
             <ProjectCard
               imgPath={yogifi}
               isBlog={false}
-              title="YogiFi - Phase 1"
+              title="YogiFi"
               description="Yoga teacher attendance management. => Web application for the organization use to manage their yoga teachers schedule, availability and attendance. => Yoga teachers has ability to manage their schedule and students. "
               // ghLink="https://github.com/soumyajit4419/Plant_AI"
               // demoLink="https://plant49-ai.herokuapp.com/"
